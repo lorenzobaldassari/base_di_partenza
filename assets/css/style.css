@@ -236,8 +236,15 @@ footer a {
     margin: 3em auto 4em auto;
   }
 }
+address {
+  width: 100%;
+}
 
 @media screen and (min-width: 790px) {
+  body {
+    line-height: 33px;
+    font-size: 2em;
+  }
   header {
     display: flex;
     justify-content: space-between;
@@ -260,5 +267,44 @@ footer a {
     position: relative;
     top: 23px;
     left: -20px;
+  }
+
+  h1 {
+    font-size: 3em;
+    line-height: 70px;
+  }
+
+  table {
+    width: 70%;
+  }
+
+  iframe {
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+    height: 250px;
+  }
+  section {
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+    height: 250px;
+    border-radius: 25px;
+  }
+  section > h2 {
+    background-color: #a2a2a3;
+  }
+  section > h2 + p {
+    /* font-size: 1.5em; */
+    line-height: 50px;
+  }
+
+  .box {
+    width: 32%;
+    display: inline-block;
+  }
+  address {
+    width: 43%;
+    margin: 0em auto 0em auto;
   }
 }
